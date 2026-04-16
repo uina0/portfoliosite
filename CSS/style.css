@@ -36,3 +36,15 @@
 .about-text h2 {
   margin-bottom: 20px;
 }
+
+/* skill */
+.skill-list {
+  display: flex;
+  gap: 20px;
+}
+.card {
+  background-color: #ffdde2;
+  padding: 20px;
+  width: 33.3%;
+  border-radius: 10px;
+}
