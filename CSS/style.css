@@ -38,6 +38,9 @@
 }
 
 /* skill */
+.skill {
+  margin-top: 80px;
+}
 .skill-list {
   display: flex;
   gap: 20px;
@@ -47,4 +50,30 @@
   padding: 20px;
   width: 33.3%;
   border-radius: 10px;
+}
+
+/* works */
+.works {
+  margin-top: 80px;
+}
+.works-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.works-item {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 50px;
+  background-color: #ffff;
+  padding: 7px 70px;
+  margin: 0 auto;
+}
+.works-item img {
+  width: 100%;
+}
+.works-item p {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
 }
