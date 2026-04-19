@@ -77,3 +77,29 @@
   width: 100%;
   margin-top: 10px;
 }
+
+/* footer */
+.footer {
+  margin-top: 80px;
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.nav ul {
+  display: flex;
+  gap: 20px;
+}
+.logo img {
+  height: 40px;
+}
+footer p {
+  text-align: center;
+  margin-top: 15px;
+}
