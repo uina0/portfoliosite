@@ -11,6 +11,9 @@
 body {
   background-color: #fffbf2;
 }
+section {
+  padding: 80px 0;
+}
 
 /* header */
 .header .container {
@@ -24,6 +27,30 @@ body {
 }
 .logo img {
   height: 40px;
+}
+
+/* main visual */
+.mv {
+  padding: 20px 40px 0;
+  overflow: hidden;
+  position: relative;
+}
+/* mv-bg */
+.mv-bg {
+  width: 100%;
+  display: block;
+}
+.mv h2 {
+  display: none;
+}
+/* mv-ロゴ */
+.mv-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  max-width: 500px;
 }
 
 /* about */
@@ -43,9 +70,6 @@ body {
 }
 
 /* skill */
-.skill {
-  margin-top: 80px;
-}
 .skill-list {
   display: flex;
   gap: 20px;
@@ -58,9 +82,6 @@ body {
 }
 
 /* works */
-.works {
-  margin-top: 80px;
-}
 .works-list {
   display: flex;
   flex-wrap: wrap;
@@ -68,10 +89,9 @@ body {
 .works-item {
   width: 100%;
   max-width: 600px;
-  margin-bottom: 50px;
-  background-color: #ffff;
+  background-color: #fff;
   padding: 7px 70px;
-  margin: 0 auto;
+  margin: 0 auto 50px;
 }
 .works-item img {
   width: 100%;
@@ -84,9 +104,6 @@ body {
 }
 
 /* footer */
-.footer {
-  margin-top: 80px;
-}
 .footer .container {
   display: flex;
   flex-direction: column;
@@ -96,13 +113,6 @@ body {
   justify-content: space-between;
   width: 100%;
   align-items: center;
-}
-.nav ul {
-  display: flex;
-  gap: 20px;
-}
-.logo img {
-  height: 40px;
 }
 footer p {
   text-align: center;
