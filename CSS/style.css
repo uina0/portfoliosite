@@ -10,6 +10,7 @@
 /* body */
 body {
   background-color: #fffbf2;
+  font-weight: 300;
 }
 section {
   padding: 80px 0;
@@ -79,15 +80,50 @@ section {
 }
 
 /* skill */
+.skill {
+  text-align: center;
+}
+.skill h2 {
+  display: inline-block;
+  border: 2px solid #fd6fa9;
+  border-radius: 50px;
+  padding: 5px 100px;
+}
 .skill-list {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 .card {
   background-color: #ffdde2;
   padding: 20px;
-  width: 33.3%;
-  border-radius: 10px;
+  width: 50%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+.icon {
+  border: 2px solid #c62328;
+  background-color: #fff;
+  width: 65%;
+  aspect-ratio: 3/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.icon img {
+  width: 50%;
 }
 
 /* works */
