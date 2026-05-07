@@ -174,9 +174,13 @@ section {
   flex-direction: column;
 }
 .footer-top {
+  background-image: url(../img/footer-back.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 100px 40px;
+
   display: flex;
   justify-content: space-between;
-  width: 100%;
   align-items: center;
 }
 footer p {
