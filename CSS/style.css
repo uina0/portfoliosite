@@ -174,16 +174,41 @@ section {
   flex-direction: column;
 }
 .footer-top {
-  background-image: url(../img/footer-back.png);
   background-repeat: no-repeat;
-  background-size: contain;
   padding: 100px 40px;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: relative;
+  text-align: center;
+}
+.footer-bg {
+  width: 100%;
+  display: block;
 }
 footer p {
   text-align: center;
   margin-top: 15px;
+}
+.contact-btn {
+  display: inline-block;
+  background-color: #9ebed9;
+  border-radius: 999px;
+  padding: 15px 80px;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 30px;
+
+  position: absolute;
+  bottom: 40%;
+  left: 0%;
+
+  width: 100%;
+  padding: 0 70px;
 }
