@@ -19,13 +19,15 @@
     <header class="header">
       <div class="container">
         <h1 class="logo">
-          <img src="img/logo-yuina.svg" alt="yuina" />
+          <a href="index.html">
+            <img src="img/logo-yuina.svg" alt="yuina" />
+          </a>
         </h1>
         <nav class="nav">
           <ul>
             <li><a href="profile.html">profile</a></li>
-            <li>skill</li>
-            <li><a href="works.html">works</a></li>
+            <li><a href="#skill">skill</a></li>
+            <li><a href="#works">works</a></li>
             <li><a href="contact.html">contact</a></li>
           </ul>
         </nav>
@@ -55,7 +57,7 @@
       </section>
 
       <!-- skill -->
-      <section class="skill">
+      <section class="skill" id="skill">
         <div class="container">
           <h2>skill</h2>
           <div class="skill-list">
@@ -85,18 +87,19 @@
       </section>
 
       <!-- works -->
-      <section class="works">
+      <section class="works" id="works">
         <div class="container">
           <h2>works</h2>
           <div class="works-list">
-            <div class="works-item">
+            <a href="works-banner.html" class="works-item">
               <div class="works-img">
-                <img src="img/バナー制作課題.jpg" alt="" />
+                <img src="img/works-banner.jpg" alt="" />
               </div>
 
               <p>バナー制作課題 <span>→</span></p>
-            </div>
+            </a>
 
+            <a href="works-portfolio.html" class="works-item">
             <div class="works-item">
               <div class="works-img">
                 <img src="" alt="" />
@@ -104,7 +107,7 @@
               <p>ポートフォリオサイト <span>→</span></p>
             </div>
           </div>
-        </div>
+        </a>
       </section>
     </main>
 
@@ -117,14 +120,16 @@
 
           <div class="footer-bottom">
             <div class="logo">
-              <img src="img/logo-yuina.svg" alt="yuina" />
+              <a href="index.html">
+                <img src="img/logo-yuina.svg" alt="yuina" />
+              </a>
             </div>
             <nav class="nav">
               <ul>
-                <li>profile</li>
-                <li>skill</li>
-                <li>works</li>
-                <li>contact</li>
+                <li><a href="profile.html">profile</a></li>
+                <li><a href="#skill">skill</a></li>
+                <li><a href="#works">works</a></li>
+                <li><a href="contact.html">contact</a></li>
               </ul>
             </nav>
           </div>
