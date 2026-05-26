@@ -212,3 +212,43 @@ footer p {
   width: 100%;
   padding: 0 70px;
 }
+
+/* works-detail */
+.works-detail h2 {
+  border: none;
+  border-radius: 0;
+  font-size: 26px;
+  text-align: center;
+}
+.works-content {
+  display: flex;
+  gap: 30px;
+  text-align: left;
+}
+.works-text h3 {
+  font-size: 24px;
+}
+.works-text p {
+  font-size: 16px;
+}
+.detail-img {
+  align-self: start;
+  width: 55%;
+  background-color: #fff;
+  padding: 3px 70px;
+}
+.detail-img img {
+  width: 100%;
+}
+.back-area {
+  text-align: center;
+  margin-top: 50px;
+}
+.back-btn {
+  display: inline-block;
+  border: 2px solid #fd6fa9;
+  border-radius: 50px;
+  padding: 10px 100px;
+  text-decoration: none;
+  color: #3f3e3f;
+}
