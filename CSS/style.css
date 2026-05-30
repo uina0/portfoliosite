@@ -38,6 +38,10 @@ section {
   list-style: none;
   padding: 0;
 }
+.nav a {
+  text-decoration: none;
+  color: #3f3e3f;
+}
 .logo img {
   height: 40px;
 }
@@ -75,6 +79,9 @@ section {
   max-width: 720px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+}
+.about-box {
+  background-image: url(img/about-back.png);
 }
 .about-text {
   flex: 1;
@@ -150,6 +157,8 @@ section {
   width: 100%;
   max-width: 600px;
   margin: 0 auto 50px;
+  text-decoration: none;
+  color: #3f3e3f;
 }
 .works-img {
   background-color: #fff;
@@ -218,7 +227,6 @@ footer p {
   border: none;
   border-radius: 0;
   font-size: 26px;
-  text-align: center;
 }
 .works-content {
   display: flex;
