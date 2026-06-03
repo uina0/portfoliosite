@@ -80,16 +80,28 @@ section {
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
-.about-box {
-  background-image: url(img/about-back.png);
-}
 .about-text {
   flex: 1;
-  background-color: #ffe3e6;
-  aspect-ratio: 1 / 1;
+  background-image: url(../img/about-back.png);
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .about-text h2 {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
+  font-weight: normal;
+  font-size: 20px;
+}
+.about-box {
+  background-color: #fff;
+  border: 3px solid #c62328;
+  padding: 25px 35px;
+  width: 68%;
+}
+.about-box p {
+  line-height: 1.8;
+  font-size: 12px;
 }
 
 /* skill */
