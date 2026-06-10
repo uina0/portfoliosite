@@ -17,6 +17,7 @@ body {
   background-color: #fffbf2;
   color: #3f3e3f;
   font-weight: 300;
+  font-family: "M PLUS 1", sans-serif;
 }
 section {
   padding: 80px 0;
@@ -271,4 +272,52 @@ footer p {
   padding: 10px 100px;
   text-decoration: none;
   color: #3f3e3f;
+}
+
+/* contact  */
+.contact-wrap {
+  position: relative;
+}
+.contact-bg {
+  width: 100%;
+  display: block;
+}
+.contact-form {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  width: 70%;
+}
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  background-color: #fffff6;
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.contact-form input {
+  height: 50px;
+}
+.contact-form textarea {
+  height: 100px;
+}
+.contact-form h2 {
+  margin-top: 20px;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 500;
+}
+.contact-form label {
+  font-size: 18px;
+  font-weight: 400;
+}
+.contact-form button {
+  display: block;
+  margin: 0 auto;
+  border: 5px solid #fffff6;
+  border-radius: 10px;
+  font-size: 24px;
+  padding: 10px;
 }
