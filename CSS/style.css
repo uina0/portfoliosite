@@ -219,6 +219,7 @@ footer p {
   top: 30%;
   left: 50%;
   transform: translateX(-50%);
+  text-decoration: none;
 }
 .footer-bottom {
   display: flex;
