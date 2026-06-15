@@ -236,6 +236,31 @@ footer p {
   padding: 0 70px;
 }
 
+/* profile-detail */
+.profile-inner {
+  display: flex;
+  gap: 60px;
+}
+.profile-inner img {
+  background-color: #fff;
+  width: 55%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+.profile-box {
+  width: 45%;
+  flex: 1;
+}
+.profile-box h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.profile-box p {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
 /* works-detail */
 .works-detail h2 {
   border: none;
