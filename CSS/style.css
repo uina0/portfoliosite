@@ -260,7 +260,26 @@ footer p {
   font-size: 16px;
   line-height: 1.8;
 }
-
+/* profile-story */
+.story-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.story-list {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  width: 85%;
+  margin: 0 auto;
+}
+.year {
+  font-weight: 500;
+}
+.story-text {
+  flex: 1;
+  line-height: 1.8;
+}
 /* works-detail */
 .works-detail h2 {
   border: none;
