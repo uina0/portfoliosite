@@ -280,6 +280,57 @@ footer p {
   flex: 1;
   line-height: 1.8;
 }
+/* profile-like */
+.like-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.like-item {
+  width: calc((100% - 40px) / 3);
+  position: relative;
+}
+.like-photo {
+  width: 100%;
+  display: block;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.like-heart {
+  opacity: 0;
+  transition: 0.3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.like-item:hover .like-heart {
+  opacity: 1;
+}
+.like-photo {
+  transition: 0.3s;
+}
+.like-item:hover .like-photo {
+  opacity: 0.4;
+}
+.like-heart img {
+  width: 130%;
+  height: auto;
+}
+.like-text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+}
+
 /* works-detail */
 .works-detail h2 {
   border: none;
