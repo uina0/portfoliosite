@@ -197,7 +197,7 @@ section {
 }
 .footer-top {
   background-repeat: no-repeat;
-  padding: 100px 40px;
+  padding: 30px 40px;
   position: relative;
   text-align: center;
 }
@@ -392,6 +392,7 @@ footer p {
   border-radius: 15px;
   margin-top: 5px;
   margin-bottom: 20px;
+  padding: 10px 15px;
 }
 .contact-form input {
   height: 50px;
